@@ -179,7 +179,7 @@ Circuit* allocate_circuit(int numInputs, int numOutputs) {
     return temp;
 }
 
-void freeCircuit(Circuit* circuit) {
+void freeCircuit(Circuit* circuit) { //frees all connected parts of a circuit
     GateNode* current = circuit->head;
     while (current != NULL){
         GateNode* temp = current->next;
