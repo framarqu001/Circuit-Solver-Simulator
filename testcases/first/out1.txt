@@ -1,0 +1,2 @@
+G1 AND
+G2 NOT

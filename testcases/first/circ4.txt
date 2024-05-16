@@ -1,0 +1,17 @@
+INPUTVAR 7 IN1 IN2 IN3 IN4 IN5 IN6 IN7 
+OUTPUTVAR 1 OUT1
+OUTPUTVAL 
+OUT1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 1 1 1 1 0 1 1 1 1 1 1 1 0 1 
+G1 6 IN1 IN2 temp1 temp2 temp3 temp4
+G2 6 IN3 IN4 temp5 temp6 temp7 temp8
+AND IN5 IN6 temp9
+XOR IN7 IN5 temp10
+AND temp10 temp9 temp11
+OR temp1 temp2 temp12
+XOR temp3 temp4 temp13
+AND temp5 temp6 temp14
+OR temp7 temp8 temp15
+OR temp11 temp14 temp16
+XOR temp12 temp15 temp17
+XOR temp16 temp13 temp18
+G3 3 temp17 temp18 OUT1

@@ -1,0 +1,49 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/steven/Documents/pa6_autograder/pa6/third/circ'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _gateToString, symObjAddr: 0x0, symBinAddr: 0x100001428, symSize: 0xD0 }
+  - { offsetInCU: 0x82, offset: 0x82, size: 0x8, addend: 0x0, symName: _gateToString, symObjAddr: 0x0, symBinAddr: 0x100001428, symSize: 0xD0 }
+  - { offsetInCU: 0xAA, offset: 0xAA, size: 0x8, addend: 0x0, symName: _numGrayCode, symObjAddr: 0xF0, symBinAddr: 0x100001518, symSize: 0x1C }
+  - { offsetInCU: 0xD2, offset: 0xD2, size: 0x8, addend: 0x0, symName: _getType, symObjAddr: 0x10C, symBinAddr: 0x100001534, symSize: 0x130 }
+  - { offsetInCU: 0xFA, offset: 0xFA, size: 0x8, addend: 0x0, symName: _storeOutputs, symObjAddr: 0x23C, symBinAddr: 0x100001664, symSize: 0xBC }
+  - { offsetInCU: 0x180, offset: 0x180, size: 0x8, addend: 0x0, symName: _buildGates, symObjAddr: 0x2F8, symBinAddr: 0x100001720, symSize: 0x208 }
+  - { offsetInCU: 0x1EA, offset: 0x1EA, size: 0x8, addend: 0x0, symName: _highestPowerof2, symObjAddr: 0x500, symBinAddr: 0x100001928, symSize: 0x4C }
+  - { offsetInCU: 0x220, offset: 0x220, size: 0x8, addend: 0x0, symName: _compareResults, symObjAddr: 0x54C, symBinAddr: 0x100001974, symSize: 0x110 }
+  - { offsetInCU: 0x2AA, offset: 0x2AA, size: 0x8, addend: 0x0, symName: _solveCircuit, symObjAddr: 0x65C, symBinAddr: 0x100001A84, symSize: 0x228 }
+  - { offsetInCU: 0x388, offset: 0x388, size: 0x8, addend: 0x0, symName: _runSimulation, symObjAddr: 0x884, symBinAddr: 0x100001CAC, symSize: 0x10C }
+  - { offsetInCU: 0x438, offset: 0x438, size: 0x8, addend: 0x0, symName: _turnOnCircuit, symObjAddr: 0x990, symBinAddr: 0x100001DB8, symSize: 0x68 }
+  - { offsetInCU: 0x478, offset: 0x478, size: 0x8, addend: 0x0, symName: _storeResults, symObjAddr: 0x9F8, symBinAddr: 0x100001E20, symSize: 0xB0 }
+  - { offsetInCU: 0x4FE, offset: 0x4FE, size: 0x8, addend: 0x0, symName: _gateOperation, symObjAddr: 0xAA8, symBinAddr: 0x100001ED0, symSize: 0x614 }
+  - { offsetInCU: 0x693, offset: 0x693, size: 0x8, addend: 0x0, symName: _readVariables, symObjAddr: 0x10D8, symBinAddr: 0x100002500, symSize: 0x148 }
+  - { offsetInCU: 0x707, offset: 0x707, size: 0x8, addend: 0x0, symName: _readInputs, symObjAddr: 0x1220, symBinAddr: 0x100002648, symSize: 0xE4 }
+  - { offsetInCU: 0x777, offset: 0x777, size: 0x8, addend: 0x0, symName: _readOutputs, symObjAddr: 0x1304, symBinAddr: 0x10000272C, symSize: 0xE4 }
+  - { offsetInCU: 0x7E7, offset: 0x7E7, size: 0x8, addend: 0x0, symName: _compareOneStrings, symObjAddr: 0x13E8, symBinAddr: 0x100002810, symSize: 0x110 }
+  - { offsetInCU: 0x887, offset: 0x887, size: 0x8, addend: 0x0, symName: _compareTwoInputs, symObjAddr: 0x14F8, symBinAddr: 0x100002920, symSize: 0x138 }
+  - { offsetInCU: 0x8ED, offset: 0x8ED, size: 0x8, addend: 0x0, symName: _findMatchingOutput, symObjAddr: 0x1630, symBinAddr: 0x100002A58, symSize: 0xF8 }
+  - { offsetInCU: 0x935, offset: 0x935, size: 0x8, addend: 0x0, symName: _canSimplify, symObjAddr: 0x1728, symBinAddr: 0x100002B50, symSize: 0xF0 }
+  - { offsetInCU: 0x9AA, offset: 0x9AA, size: 0x8, addend: 0x0, symName: _simplifyCircuit, symObjAddr: 0x1818, symBinAddr: 0x100002C40, symSize: 0xF0 }
+  - { offsetInCU: 0xA1B, offset: 0xA1B, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1908, symBinAddr: 0x100002D30, symSize: 0x23C }
+  - { offsetInCU: 0x26, offset: 0xF76, size: 0x8, addend: 0x0, symName: _allocate_StrArr, symObjAddr: 0x0, symBinAddr: 0x100002F6C, symSize: 0x60 }
+  - { offsetInCU: 0x81, offset: 0xFD1, size: 0x8, addend: 0x0, symName: _allocate_StrArr, symObjAddr: 0x0, symBinAddr: 0x100002F6C, symSize: 0x60 }
+  - { offsetInCU: 0xC5, offset: 0x1015, size: 0x8, addend: 0x0, symName: _allocate_Unknowns, symObjAddr: 0x60, symBinAddr: 0x100002FCC, symSize: 0x58 }
+  - { offsetInCU: 0xFB, offset: 0x104B, size: 0x8, addend: 0x0, symName: _addUnknown, symObjAddr: 0xB8, symBinAddr: 0x100003024, symSize: 0x114 }
+  - { offsetInCU: 0x173, offset: 0x10C3, size: 0x8, addend: 0x0, symName: _addString, symObjAddr: 0x1CC, symBinAddr: 0x100003138, symSize: 0x118 }
+  - { offsetInCU: 0x1EB, offset: 0x113B, size: 0x8, addend: 0x0, symName: _allocate_intarr, symObjAddr: 0x2E4, symBinAddr: 0x100003250, symSize: 0x58 }
+  - { offsetInCU: 0x221, offset: 0x1171, size: 0x8, addend: 0x0, symName: _addNum, symObjAddr: 0x33C, symBinAddr: 0x1000032A8, symSize: 0x114 }
+  - { offsetInCU: 0x299, offset: 0x11E9, size: 0x8, addend: 0x0, symName: _clearNums, symObjAddr: 0x450, symBinAddr: 0x1000033BC, symSize: 0x18 }
+  - { offsetInCU: 0x2BD, offset: 0x120D, size: 0x8, addend: 0x0, symName: _clearUknowns, symObjAddr: 0x468, symBinAddr: 0x1000033D4, symSize: 0x18 }
+  - { offsetInCU: 0x2E1, offset: 0x1231, size: 0x8, addend: 0x0, symName: _allocate_gatenode, symObjAddr: 0x480, symBinAddr: 0x1000033EC, symSize: 0x68 }
+  - { offsetInCU: 0x325, offset: 0x1275, size: 0x8, addend: 0x0, symName: _addGate, symObjAddr: 0x4E8, symBinAddr: 0x100003454, symSize: 0xB8 }
+  - { offsetInCU: 0x365, offset: 0x12B5, size: 0x8, addend: 0x0, symName: _allocate_hashNode, symObjAddr: 0x5A0, symBinAddr: 0x10000350C, symSize: 0x54 }
+  - { offsetInCU: 0x3A9, offset: 0x12F9, size: 0x8, addend: 0x0, symName: _allocate_HashTable, symObjAddr: 0x5F4, symBinAddr: 0x100003560, symSize: 0x94 }
+  - { offsetInCU: 0x3FB, offset: 0x134B, size: 0x8, addend: 0x0, symName: _freeHashTable, symObjAddr: 0x688, symBinAddr: 0x1000035F4, symSize: 0x84 }
+  - { offsetInCU: 0x449, offset: 0x1399, size: 0x8, addend: 0x0, symName: _freeHashList, symObjAddr: 0x70C, symBinAddr: 0x100003678, symSize: 0x68 }
+  - { offsetInCU: 0x497, offset: 0x13E7, size: 0x8, addend: 0x0, symName: _hash, symObjAddr: 0x774, symBinAddr: 0x1000036E0, symSize: 0x94 }
+  - { offsetInCU: 0x505, offset: 0x1455, size: 0x8, addend: 0x0, symName: _allocate_circuit, symObjAddr: 0x808, symBinAddr: 0x100003774, symSize: 0x16C }
+  - { offsetInCU: 0x565, offset: 0x14B5, size: 0x8, addend: 0x0, symName: _insert, symObjAddr: 0x974, symBinAddr: 0x1000038E0, symSize: 0x10C }
+  - { offsetInCU: 0x5F9, offset: 0x1549, size: 0x8, addend: 0x0, symName: _freeCircuit, symObjAddr: 0xA80, symBinAddr: 0x1000039EC, symSize: 0x148 }
+  - { offsetInCU: 0x663, offset: 0x15B3, size: 0x8, addend: 0x0, symName: _freeStrArr, symObjAddr: 0xBC8, symBinAddr: 0x100003B34, symSize: 0x7C }
+  - { offsetInCU: 0x6A3, offset: 0x15F3, size: 0x8, addend: 0x0, symName: _get, symObjAddr: 0xC44, symBinAddr: 0x100003BB0, symSize: 0xC8 }
+  - { offsetInCU: 0x6F5, offset: 0x1645, size: 0x8, addend: 0x0, symName: _printTable, symObjAddr: 0xD0C, symBinAddr: 0x100003C78, symSize: 0x174 }
+...
