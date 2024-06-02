@@ -137,6 +137,13 @@ For the given file circuit.txt, the output provided solves the circuit for the g
 Thus, the final output expression for the circuit is:
 `Out1 = NOT (IN1 AND IN2) AND (IN3 OR IN2)`
 
+A truth table for the expression `NOT (IN1 AND IN2) AND (IN3 OR IN2)` shows that the output `0 1 1 1 0 1 0 0` is satisfied
+
+<img src="https://github.com/framarqu001/Circuit-Solver-Simulator/assets/119390184/efcbf832-8603-41bb-b6c1-6a1acfb5aa21" width="300" alt="Truth table image">
+
+
+
+
 The third part of the program will show this simplication is true by providing the output:
 
 ```bash
