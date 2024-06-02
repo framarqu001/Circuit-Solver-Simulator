@@ -3,6 +3,18 @@
 ## Overview
 This project is a comprehensive Circuit Simulator, Solver, and Simplification tool. Given a truth table for each output and the specified number of inputs, the program identifies which gate configurations would satisfy the truth table. This functionality enhances understanding of logic gates and circuit design by allowing users to explore various configurations to achieve the desired outputs efficiently and effectively.
 
+
+## Methodology
+A circuit is represented as a linked list of gate nodes, each with a specific gate type. The values of each connection variable (e.g., temp1, IN1, IN2) are stored in a hash table for quick and dynamic access. The process involves the following steps:
+
+1. **Depth-First Search (DFS)**: A DFS search is conducted on gate nodes with unknown types. During each iteration, different gate configurations are assigned to the unknown gates. This allows the program to explore all possible gate combinations.
+2. **Simulation**: For each gate configuration, the circuit is then turned on for each input perumation. The simulation runs the circuit for all possible input permutations, ensuring that all scenarios are tested.
+3. **Output Matching**: The DFS continues to iterate until the circuit's output for a certain gate configuration matches the desired output. Once a matching configuration is found, the process stops, and the correct gate types are identified.
+
+By utilizing a hash table for storing connection variable values and employing DFS for exhaustive search, the program efficiently identifies valid gate configurations that satisfy the given truth table.
+
+
+
 ## Directives
 The circuit is described using various directives. Below are the key directives used:
 
